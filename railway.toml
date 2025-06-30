@@ -1,0 +1,12 @@
+
+[build]
+builder = "nixpacks"
+
+[deploy]
+startCommand = "npm start"
+restartPolicyType = "always"
+
+[[services]]
+name = "telegram-video-bot"
+
+[services.variables]
